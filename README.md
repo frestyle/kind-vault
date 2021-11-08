@@ -49,7 +49,9 @@ kubectl port-forward vault-0 8200:8200
 ### Initialize and unseal Vault
 
 
-The operator init command generates a master key that it disassembles into key shares -key-shares=1 and then sets the number of key shares required to unseal Vault -key-threshold=1. These key shares are written to the output as unseal keys in JSON format -format=json. Here the output is redirected to a file named cluster-keys.json.
+> The operator init command generates a master key that it disassembles into key shares -key-shares=1 and then sets the number of key shares required to unseal Vault -key-threshold=1. These key shares are written to the output as unseal keys in JSON format -format=json. Here the output is redirected to a file named cluster-keys.json.
+
+
 
 ```sh
 kubectl exec vault-0 -- vault operator init -key-shares=1 -key-threshold=1 -format=json > cluster-keys.json
@@ -96,6 +98,8 @@ vault kv get secret/webapp/config
 
 ```
 
+
+[Kubernetes Authentication](Kubernetes%20Authentication.md)
 
 
 ## References 
