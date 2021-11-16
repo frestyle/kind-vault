@@ -6,8 +6,9 @@
 
 ## Setup dashboard
 
+```sh
 ./kind/kubernetes-dashboard.sh
-
+```
 
 ## Install the Consul Helm chart
 
@@ -109,3 +110,5 @@ vault kv get secret/webapp/config
 - [Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 
 - https://github.com/kelseyhightower/serverless-vault-with-cloud-run
+- [Google KMS](https://www.vaultproject.io/docs/secrets/gcpkms)
+- [Identity](https://www.vaultproject.io/docs/concepts/identity)
