@@ -108,4 +108,8 @@ vault kv get secret/webapp/config
 
 - [Kubernetes Dashboard](https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/)
 
-- https://github.com/kelseyhightower/serverless-vault-with-cloud-run
+- [Serverless](https://github.com/kelseyhightower/serverless-vault-with-cloud-run)
+
+- [kms plugin for vault](https://cloud.google.com/blog/products/identity-security/introducing-the-cloud-kms-plugin-for-hashicorp-vault)
+
+- [kubernetes](https://www.vaultproject.io/docs/auth/kubernetes)
