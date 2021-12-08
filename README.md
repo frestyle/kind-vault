@@ -1,8 +1,10 @@
 # Vault Installation to kind via Helm
 
 ## Setup kind cluster 
-
-./kind/cluster.sh 
+```sh
+cd kind 
+./cluster.sh 
+```
 
 ## Setup dashboard
 
@@ -77,7 +79,16 @@ cat cluster-keys.json | jq -r ".root_token"
 
 kubectl exec --stdin=true --tty=true vault-0 -- /bin/sh
 
+```
+
+```sh
 vault login
+
+```
+
+enter root token
+
+```sh
 
 vault secrets enable -path=secret kv-v2
 
