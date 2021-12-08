@@ -128,3 +128,4 @@ vault kv get secret/webapp/config
 - https://github.com/kelseyhightower/serverless-vault-with-cloud-run
 - [Google KMS](https://www.vaultproject.io/docs/secrets/gcpkms)
 - [Identity](https://www.vaultproject.io/docs/concepts/identity)
+- [configuring-dynamic-secrets-for-postgresql](https://www.hashicorp.com/blog/dynamic-database-credentials-with-vault-and-kubernetes#secrets-configuring-dynamic-secrets-for-postgresql)
