@@ -23,7 +23,7 @@ helm repo update
 ```
 
 ```sh
-helm install consul hashicorp/consul --values consul/helm-consul-values.yml
+helm install consul hashicorp/consul --values consul/helm-consul-values.yaml
 ```
 
 wait for consult to be ready
@@ -35,7 +35,7 @@ Install the latest version of the Vault Helm chart with parameters helm-vault-va
 
 
 ```sh
-helm install vault hashicorp/vault --values vault/helm-vault-values.yml
+helm install vault hashicorp/vault --values vault/helm-vault-values.yaml
 ```
 
 Retrieve the status of Vault on the vault-0 pod.
